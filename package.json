@@ -1,0 +1,26 @@
+{
+  "name": "dota-ranking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getAllMatch": "node ./getAllMatch",
+    "getAllRankMatch": "node ./getAllRankMatch",
+    "getDetailMatches": "node ./getDetailMatches",
+    "getMMR": "node ./getMMR"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manhhuy01/dota-ranking.git"
+  },
+  "author": "manhhuy01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manhhuy01/dota-ranking/issues"
+  },
+  "homepage": "https://github.com/manhhuy01/dota-ranking#readme",
+  "dependencies": {
+    "node-fetch": "2"
+  }
+}
